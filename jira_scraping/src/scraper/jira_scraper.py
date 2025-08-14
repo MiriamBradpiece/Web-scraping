@@ -6,9 +6,9 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from config import settings
 
-from .jira_login import JiraLogin
-from .jira_extractors import JiraExtractors
-from .jira_utils import JiraUtils
+from scraper.jira_login import JiraLogin
+from scraper.jira_extractors import JiraExtractors
+from scraper.jira_utils import JiraUtils
 
 
 class JiraScraper(BaseScraper):
